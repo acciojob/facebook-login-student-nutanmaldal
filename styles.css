@@ -1,5 +1,4 @@
-/*  your css code here. If applicable */
-/* General Styling */
+[10:50, 13/10/2024] Vansh: /*  your css code here. If applicable */
         body {
             background-color: #f6f6f6;
             display: flex;
@@ -7,24 +6,26 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif;
         }
-
-        /* Left Section Styling */
-        .section {
-            display: inline-block;
+        .container {
+            display: flex;
+        }
+        .left {
             width: 450px;
             margin-top: 70px;
+            display: inline-block;
         }
-
-        /* Facebook Logo */
-        .section img {
-            width: 200px;
-            display: block;
-            margin-bottom: 20px;
+        .left img {
+            width: 100%;
         }
-
-        /* Right Section (Form) Styling */
+        .left p {
+            font-size: 20px;
+            color: #333;
+            margin-top: 20px;
+        }
+        .right {
+            margin-left: 50px;
+        }
         form {
             display: flex;
             flex-direction: column;
@@ -35,38 +36,26 @@
             box-shadow: 0 0 10px #ccc;
             gap: 10px;
         }
-
-        /* Input Fields Styling */
         input {
+            padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            padding: 10px;
-            font-size: 16px;
         }
-
-        /* Button Styling */
         button {
-            background-color: #1877f2;
-            border-radius: 5px;
             padding: 10px 20px;
-            color: white;
-            font-size: 16px;
+            background-color: #1877f2;
             border: none;
+            color: white;
+            border-radius: 5px;
             cursor: pointer;
             width: 100%;
         }
-
-        /* Sign-up Button */
-        .signup {
+        button.signup {
             background-color: #42b72a;
-            padding: 10px 20px;
-            margin-top: 20px;
         }
-
-        /* Link Styling */
         a {
-            color: #1877f2;
             text-decoration: none;
-            text-align: center;
-            margin-top: 10px;
+            color: #1877f2;
+            text-align: left;
         }
+[10:51, 13/10/2024] Nutan: One
