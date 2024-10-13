@@ -1,1 +1,72 @@
 /*  your css code here. If applicable */
+/* General Styling */
+        body {
+            background-color: #f6f6f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Left Section Styling */
+        .section {
+            display: inline-block;
+            width: 450px;
+            margin-top: 70px;
+        }
+
+        /* Facebook Logo */
+        .section img {
+            width: 200px;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        /* Right Section (Form) Styling */
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #ccc;
+            gap: 10px;
+        }
+
+        /* Input Fields Styling */
+        input {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        /* Button Styling */
+        button {
+            background-color: #1877f2;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        /* Sign-up Button */
+        .signup {
+            background-color: #42b72a;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+
+        /* Link Styling */
+        a {
+            color: #1877f2;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 10px;
+        }
